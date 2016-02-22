@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- 
+Document body is divided into following section
+1. header bar image
+2. Main section containing rest of the form.
+	1. Main gillete image section.
+	2. Form section	
+		1. Title bar and sub tilte
+		2. Form is divided into 6 rows after the title.
+	3. Overlay logo image section.
+	4. Footer section.
+-->
+
+<html>
+
+<!-- Head Section -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="responsive_media.css" />	
+</head>
+<!-- End of head -->
+<body>
+<!-- Header Image bar -->
+<div id="header">
+<img class= "col-12" src="image/rectangle1.png" />
+</div>
+<!-- End of header Image bar -->
+
+<!-- Start of Main Section -->
+<div id="main">
+<!-- Start of Main Image section -->
+<div id="sideimgsection">
+<img id="sideimg" class="sideimgcl" src="image/gillette.png"/>
+<img id="sideimg2" class="sideimgcl1" src="image/awesome.png" />
+</div>
+<!-- End of Main Image section -->
+
+<!-- Start of From Container Div -->
+<div id="sectionform">
+<!-- Start of Form Title -->
+<div id="sectionformheading">
+<h1 id="headingbig">Sign up while supplies last!</h1>
+<i><h3 id="headingsmall">Most samples are available for a limited time only</h3></i>
+</div>
+<!-- End of Form title -->
+<br>
+
+<!-- Start of From Div -->
+<div id="form">
+<form>
+  <!-- Form Row 1 Name -->
+  <div class="formrowd">
+  <input id="firstname" class="textcl col-t-12 formrowt" type="text" name="firstname" placeholder="First Name" required />
+  <input id="lastname" class="textcl col-t-12 formrowt" type="text" name="lastname" placeholder="Last Name" required />
+  </div>
+  <!-- Form row 2 email -->
+  <div class="formrowd">
+  <input class="textcl col-7 col-t-12 formrowt" type="email" name="email" placeholder="Email" />
+  <div class="checkcl col-4 col-t-12 formrowt">
+  <input class="checkradio" type="checkbox" name="newletter" /> <label> <span>Get Newsletter</span> </label>
+  </div>
+  </div>
+  <!-- Form row 3 Telephone -->
+  <div class="formrowd formrowt">
+  <input class="textcl col-12 col-t-12 col-m-12" type="tel" name="Telephone" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" placeholder="(555)5555555">
+  </div>
+  <!-- Form row 4 combobox -->
+  <div class="formrowd formrowt">
+  <span class="csamplespan">Choose Sample:</span>
+  <select class="textcl col-8 col-t-7 col-m-8 combobox" name="Gillette">
+    <option value="volvo">Gillette Razor1</option>
+    <option value="saab">Gillette Razor2</option>
+    <option value="fiat">Gillette Razor3</option>
+    <option value="audi">Gillette Razor4</option>
+  </select>
+  </div>
+  <!-- Form row 5 gender radio -->
+  <div class="formrowd formrowradio">
+  <span class="col-2">Gender:</span>
+  <span id="radioboxes" class="col-7">
+  <input class="checkradio" type="radio" name="gender" value="male" checked> MALE
+  <input class="checkradio" type="radio" name="gender" value="female">FEMALE
+  </span>
+  </div>
+  <!-- Form submit button -->
+  <input class="buttoncl col-12 col-t-12 col-m-12" type="image" name="submit" value="SIGN UP" src="image/signup.png">
+  
+</form>
+</div>
+<!-- End of From div -->
+</div>
+<!-- End of Form container div -->
+
+<!-- Overlay logo section -->
+<div id="overlaylogo">
+<img id="logopng" src="image/logo_copy.png" />
+</div>
+<!-- End of overlay logo section -->
+
+<!-- Start of Footer section -->
+<div id="footer">
+<p>  
+<p><div align="center"><b>Privacy Policy I Terms and Conditions 0 2016</b> GetltFree.us</div></p>
+<div align="center">Deals, coupons, freebies, samples, and other offers (collectively "Offers") change often. We can not make any guarantee that you will receive any of the 
+Offers that you request because all Offers are made by other entities. We do not mail out free samples or items (unless it is a giveaway/contest and 
+specificaiiy noted that we wiii ship the item). We are not responsibie if Offers are no longer avaiiabie, change, you do not receive them, you do not qualify, 
+links are redirected and/or removed, the Offer is refused, and/or other issues arise. The third-party product names, logos, brands, and trademarks shown 
+on this website are the property of their respective owners, These companies are not affiliated with GetItFree,us, These third parties do not sponsor or endorse this website it's content or services.</div></p>
+</div>
+<!-- End of Footer Section -->
+</div>
+<!-- End of main section Div -->
+
+</body>
+</html>
